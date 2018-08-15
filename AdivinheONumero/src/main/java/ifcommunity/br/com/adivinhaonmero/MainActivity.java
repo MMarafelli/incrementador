@@ -72,12 +72,15 @@ public class MainActivity extends AppCompatActivity {
 
         if (mNumeroGerado == Integer.parseInt(mNumeroDigitadoEditText.getText().toString())) {
             trocaMensagem(ACERTOU);
+            mNumeroDigitadoEditText.setText("");
 
         } else if (mNumeroGerado > Integer.parseInt(mNumeroDigitadoEditText.getText().toString())) {
             trocaMensagem(MAIS);
+            mNumeroDigitadoEditText.setText("");
 
         } else if (mNumeroGerado < Integer.parseInt(mNumeroDigitadoEditText.getText().toString())) {
             trocaMensagem(MENOS);
+            mNumeroDigitadoEditText.setText("");
         }
     }
 
