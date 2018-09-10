@@ -1,13 +1,8 @@
 <resources>
-    <string name="app_name">Adivinhe o Número</string>
-    <string name="titulo_textview">Adivinhe o número!</string>
-    <string name="subtitulo_textview">Escolha um numero de 0 a 100!</string>
+    <string name="app_name">Prova 1</string>
     <string name="default_tentativas_textview">0</string>
-    <string name="texto_tentativas_textview">Número de tentativas: </string>
-    <string name="hint_numero_edittext">Digite um número!</string>
-    <string name="tentar_button">Tentar</string>
-    <string name="resetar_button">Começar de novo</string>
-    <string name="feedback_maior_textview">O número é <b>maior</b>!</string>
-    <string name="feedback_menor_textview">O número é <b>menor</b>!</string>
-    <string name="feedback_acertou">Você acertou em ${value} tentativa(s)</string>
+    <string name="texto_tentativas_textview">Contagem: </string>
+    <string name="aumentar_button">+1</string>
+    <string name="diminuir_button">-1</string>
+    <string name="resetar_button">Zerar contagem</string>
 </resources>
